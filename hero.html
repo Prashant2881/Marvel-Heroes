@@ -1,0 +1,229 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css2?family=Comic+Neue:wght@400;700&display=swap" rel="stylesheet">
+    <title>MyHeroes-Home</title>
+    <style>
+        * {
+            margin: 0%;
+            padding: 0%;
+            box-sizing: border-box;
+        }
+
+        body {
+            width: 100%;
+            height: 100%;
+            padding: 1rem 0rem;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            background: #1a1a1a;
+            color: azure;
+            font-family: 'Comic Neue', cursive;
+        }
+
+        a {
+            color: inherit;
+            text-decoration: none;
+        }
+
+        #container {
+            width: 75%;
+            height: 100%;
+            min-height: 100vh;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: flex-start;
+            padding: 2rem 0rem;
+            background: #2A2A2A;
+            border-radius: 1rem;
+        }
+
+        .header {
+            width: 95%;
+            height: max-content;
+            font-size: 2rem;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            padding: 1.5rem;
+            border-top-left-radius: 1rem;
+            border-top-right-radius: 1rem;
+            background-color: darkred;
+            margin-bottom: 1rem;
+        }
+
+        .navbar {
+            width: 95%;
+            font-size: 1rem;
+            height: max-content;
+            padding: 1rem;
+            background: darkred;
+            border-bottom-left-radius: 1rem;
+            border-bottom-right-radius: 1rem;
+            display: flex;
+            align-items: center;
+            justify-content: space-evenly;
+            font-weight: 800;
+            margin-bottom: 1rem;
+        }
+
+        .hero-box {
+            margin-top: 1rem;
+            width: 95%;
+            height: 300px;
+            background: maroon;
+            border-radius: 1rem;
+            padding: 1rem;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            gap: 2rem;
+            margin-bottom: 1rem;
+        }
+
+
+        .hero-img {
+            width: max-content;
+            height: 90%;
+            border: 0.25rem solid #ff4500;
+            border-radius: 1rem;
+            overflow: hidden;
+        }
+
+        img {
+            width: auto;
+            height: 100%;
+            object-position: left;
+            object-fit: contain;
+        }
+
+        .hero-text {
+            width: 100%;
+            height: 90%;
+        }
+
+        .hero-text h3 {
+            font-size: 2rem;
+            color: #ff4500;
+            margin-bottom: 1rem;
+        }
+
+        .hero-text p {
+            font-size: 1.15rem;
+            line-height: 1.5;
+        }
+
+        .top {
+            padding: 1rem 3rem;
+            border: none;
+            background: #ff4500;
+            color: azure;
+            font-weight: 600;
+            border-radius: 0.5rem;
+        }
+
+        .top:hover {
+            background: #cc3700;
+        }
+
+        footer {
+            margin-top: 2rem;
+            width: 95%;
+            height: 12vh;
+            background: darkred;
+            border-bottom-left-radius: 1rem;
+            border-bottom-right-radius: 1rem;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+
+        footer h3 {
+            font-size: 1.5rem;
+        }
+    </style>
+</head>
+
+<body>
+    <div id="container">
+        <div class="header">
+            <h1>My Favorite Heroes!</h1>
+        </div>
+        <div class="navbar">
+            <a href="index.html">Home</a>
+            <a href="hero.html">My Favorite Heroes</a>
+            <a href="connect.html">Connect</a>
+        </div>
+        <div class="hero-box">
+            <div class="hero-img"><img src="img/ironman.jpg" alt=""></div>
+            <div class="hero-text">
+                <h3>Iron Man 🤖</h3>
+                <p>Iron Man will always be my favorite—not because he’s rich or flashy, but because he’s just a guy with
+                    a brilliant mind and a huge heart. He doesn’t have any powers, yet he builds his own legacy with
+                    nothing but raw intelligence and unstoppable will. His growth hit me hard—from a careless
+                    billionaire to someone who gave everything to save everyone. Every joke, every upgrade to his suit,
+                    every moment he stood tall? It made him feel so real. Honestly, I’ll never stop admiring him. Tony
+                    Stark isn’t just cool… he’s everything.</p>
+            </div>
+        </div>
+        <div class="hero-box">
+            <div class="hero-img"><img src="img/thor.jpg" alt=""></div>
+            <div class="hero-text">
+                <h3>Thor (God of Thunder) ⚡🔨</h3>
+                <p>Thor might be a literal god, but he’s so much more than his strength. He’s faced loss after loss—his
+                    home, his brother, his confidence—and still finds a way to fight for others. He’s powerful, yeah,
+                    but he’s also kind, loyal, and full of heart. His journey from an arrogant warrior to a humble
+                    protector is honestly beautiful. And when he smiles or cracks a joke, it’s impossible not to smile
+                    too. I don’t just admire him—I feel proud of him.</p>
+            </div>
+        </div>
+        <div class="hero-box">
+            <div class="hero-img"><img src="img/wanda.jpg" alt=""></div>
+            <div class="hero-text">
+                <h3>Wanda Maximoff (Scarlet Witch) 🔮❤️</h3>
+                <p>Wanda’s story is pure emotion. She’s been through so much pain, so much loss, and yet her love never
+                    fades. She’s powerful in ways that go beyond magic—her strength is emotional, raw, and real.
+                    Watching her struggle, heal, and break again felt so personal. She’s not perfect, and that’s what
+                    makes her unforgettable. Wanda is chaos and love, grief and hope. Every time she appears on screen,
+                    it’s like the world holds its breath.</p>
+            </div>
+        </div>
+        <div class="hero-box">
+            <div class="hero-img"><img src="img/loki.jpeg" alt=""></div>
+            <div class="hero-text">
+                <h3>Loki (God of Mischief) 🌀🐍</h3>
+                <p>Loki is one of the most fascinating characters ever. He’s not just a villain or a trickster—he’s
+                    someone constantly fighting for identity and love. He’s broken but brilliant, misunderstood but
+                    unforgettable. Watching him grow, especially in the series, made me feel for him in ways I didn’t
+                    expect. Beneath all the mischief is a heart that just wants to be seen. And honestly? His style, his
+                    charm, that chaotic energy? I adore it all.</p>
+            </div>
+        </div>
+        <div class="hero-box">
+            <div class="hero-img"><img src="img/spiderman.jpg" alt=""></div>
+            <div class="hero-text">
+                <h3>Spider-Man (Peter Parker) 🕷️📸</h3>
+                <p>Spider-Man is the most relatable hero ever. He’s young, awkward, broke half the time—but still
+                    chooses to do the right thing, even when it hurts. "With great power comes great responsibility"
+                    isn’t just a quote, it’s how he lives. The way he balances being Peter and Spider-Man, losing so
+                    much and still showing up... it honestly breaks my heart and inspires me every time. He’s proof that
+                    being a hero isn’t about powers—it’s about the choices you make. I just love him so much for that.
+                </p>
+            </div>
+        </div>
+
+        <button class="top"><a href="hero.html">Back to top</a></button>
+
+        <footer>
+            <h3>For the love of superheroes</h3>
+        </footer>
+
+    </div>
+</body>
+
+</html>
